@@ -6,6 +6,7 @@ import Header from './components/header';
 import Wave from './components/Wave';
 import Card from './components/Card';
 import Section from './components/Section';
+import Tags from './components/Tags';
 
 function App() {
   return (
@@ -22,15 +23,30 @@ function App() {
             </div>
             <div className ="Cards">
               <h2>Skills</h2>
-                <div className="CardGroup">
-                  <Card title ="React" text ="Advance" image ={require('./images/wallpaper4.jpg')}/>
-                  <Card title ="Java Script" text ="Advance" image ={require('./images/wallpaper.jpg')}/>
-                  <Card title ="Mongo Db" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
-                  <Card title ="Node" text ="Advance" image ={require('./images/wallpaper3.jpg')}/>
-                  <Card title ="CSS" text ="Advance" image ={require('./images/wallpaper1.jpg')}/>
-                  <Card title ="HTML" text ="Advance" image ={require('./images/wallpaper5.jpg')}/>
-                  <Card title ="PGSQL" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
-                </div>
+                <h3>Frontend</h3>
+                <div className="TagsGroup">
+                  <Tags image = {require('./images/html.png')} title = {"HTML"}/>
+                  <Tags image = {require('./images/css.png')} title = {"CSS"}/>
+                  <Tags image = {require('./images/js.png')} title = {"JS"}/>
+                  <Tags image = {require('./images/react.png')} title = {"REACT"}/>
+                </div>  
+                  <h3>Backend</h3>
+                  <div className="TagsGroup">
+                  <Tags image = {require('./images/node.png')} title = {"NODE"}/>
+                  <Tags image = {require('./images/express.jpeg')} title = {"EXPRESS"}/>
+                  <Tags image = {require('./images/mongo.png')} title = {"MONGO"}/>
+                  <Tags image = {require('./images/postgres.png')} title = {"POSTGRES SQL"}/>
+                  <Tags image = {require('./images/heroku.png')} title = {"HEROKU"}/>
+                  <Tags image = {require('./images/firebase.png')} title = {"FIREBASE"}/>
+                  <Tags image = {require('./images/netlify.png')} title = {"NETLIFY"}/>
+                  <Tags image = {require('./images/adobe.png')} title = {"Adobe-xd"}/>
+                  <Tags image = {require('./images/logo-figma.png')} title = {"Figma"}/>
+                  <Tags image = {require('./images/bootstrap.png')} title = {"Bootstrap"}/>
+                  <Tags image = {require('./images/mui.png')} title = {"Material UI"}/>
+                  <Tags image = {require('./images/material.png')} title = {"Materialize"}/>
+                  <Tags image = {require('./images/mocha.png')} title = {"Mocha"}/>
+                  <Tags image = {require('./images/git.png')} title = {"Git"}/>
+               </div>
             </div>
             <Section 
             image = {require('./images/wallpaper1.jpg')} 

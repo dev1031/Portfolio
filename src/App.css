@@ -12,6 +12,7 @@ a{
   text-decoration: none;
   font-weight: 600;
 }
+
 .Hero{
   background-image: url('./images/wallpaper3.jpg');
   height: 820px;
@@ -39,6 +40,7 @@ a{
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+
 
 .Hero p{
   color: rgba(255, 255, 255 , 0.8);
@@ -100,6 +102,17 @@ a{
   -webkit-text-fill-color: transparent;
 }
 
+.Cards h3 {
+  margin: 50px 20px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(104deg, #050A27 0%, #4A548C 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .CardGroup {
   width: 500px;
   margin: auto auto auto;
@@ -121,4 +134,14 @@ a{
   .CardGroup {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.TagsGroup{
+  width: 500px;
+  margin: auto auto auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-content: center;
+  align-content: center;
 }
