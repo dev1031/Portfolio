@@ -5,6 +5,7 @@ import { BrowserRouter as Router , Link } from "react-router-dom";
 import Header from './components/header';
 import Wave from './components/Wave';
 import Card from './components/Card';
+import Section from './components/Section';
 
 function App() {
   return (
@@ -31,9 +32,28 @@ function App() {
                   <Card title ="PGSQL" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
                 </div>
             </div>
-          </div>
+            <Section 
+            image = {require('./images/wallpaper1.jpg')} 
+            title = "My Personal Projects"
+            />
+            <div className ="Cards">
+                <div className="CardGroup">
+                  <Card title ="Social Media App" text ="Advance" image ={require('./images/wallpaper4.jpg')}/>
+                  <Card title ="Github Client" text ="Advance" image ={require('./images/wallpaper.jpg')}/>
+                  <Card title ="Airbnb" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
+                  <Card title ="Instagram" text ="Advance" image ={require('./images/wallpaper3.jpg')}/>
+                  <Card title ="The Movie App" text ="Advance" image ={require('./images/wallpaper1.jpg')}/>
+                  <Card title ="Chat Application" text ="Advance" image ={require('./images/wallpaper5.jpg')}/>
+                  <Card title ="Exercise Tracker" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
+                  <Card title ="Travel log App" text ="Advance" image ={require('./images/wallpaper4.jpg')}/>
+                </div>
+            </div>
+            <Section 
+            image = {require('./images/wallpaper5.jpg')} 
+            title = "Other Skills"
+            />
+          </div>      
         </Router>
-
   );
 }
 
