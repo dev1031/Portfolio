@@ -8,6 +8,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    margin-bottom: 20px;
 }
 
 .Card:hover {
@@ -30,7 +31,7 @@
 .Card h3 {
     color: white;
     font-size: 30px;
-    margin: 50px 0 0 50px;
+    margin: 20px 0 0 20px;
     width: 190px;
 }
 
@@ -40,5 +41,5 @@
     font-weight: 600;
     font-size: 18px;
     align-self: end;
-    margin: 0 0 20px 50px;
+    margin: 0 0 20px 20px;
 }

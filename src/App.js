@@ -46,6 +46,7 @@ function App() {
                   <Card title ="Chat Application" text ="Advance" image ={require('./images/wallpaper5.jpg')}/>
                   <Card title ="Exercise Tracker" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
                   <Card title ="Travel log App" text ="Advance" image ={require('./images/wallpaper4.jpg')}/>
+                  <Card title ="Yelp" text ="Advance" image ={require('./images/wallpaper.jpg')}/>
                 </div>
             </div>
             <Section 
