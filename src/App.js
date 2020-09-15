@@ -29,22 +29,52 @@ function App() {
                   <Tags image = {require('./images/css.png')} title = {"CSS"}/>
                   <Tags image = {require('./images/js.png')} title = {"JS"}/>
                   <Tags image = {require('./images/react.png')} title = {"REACT"}/>
-                </div>  
-                  <h3>Backend</h3>
+                  <Tags image = {require('./images/apollo.jpeg')} title = {"Apollo"}/>
+                </div> 
+                <h3>Frontend Library</h3> 
+                <div className="TagsGroup">
+                    <Tags image = {require('./images/bootstrap.png')} title = {"Bootstrap"}/>
+                    <Tags image = {require('./images/mui.png')} title = {"MaterialUI"}/>
+                    <Tags image = {require('./images/material.png')} title = {"Materialize"}/>
+                  </div>  
+                  <h3>Backend</h3> 
                   <div className="TagsGroup">
                   <Tags image = {require('./images/node.png')} title = {"NODE"}/>
                   <Tags image = {require('./images/express.jpeg')} title = {"EXPRESS"}/>
-                  <Tags image = {require('./images/mongo.png')} title = {"MONGO"}/>
-                  <Tags image = {require('./images/postgres.png')} title = {"POSTGRES SQL"}/>
+                  <Tags image = {require('./images/es6.jpeg')} title = {"ES 6"}/>
+                  </div>
+                  <h3>Database</h3>
+                  <div className="TagsGroup">
+                    <Tags image = {require('./images/mongo.png')} title = {"MONGO"}/>
+                    <Tags image = {require('./images/postgres.png')} title = {"POSTGRES SQL"}/>
+                  </div>
+                  <h3>ORM</h3>
+                  <div className="TagsGroup">
+                    <Tags image = {require('./images/mongoose.jpg')} title = {"Mongoose"}/>
+                    <Tags image = {require('./images/node-pg.png')} title = {"Node pg"}/>
+                  </div>
+                  <h3>API</h3>
+                  <div className="TagsGroup">
+                  <Tags image = {require('./images/rest-api.png')} title = {"Rest API"}/>
+                  <Tags image = {require('./images/graphql.png')} title = {"Graphql"}/>
+                  </div>
+                  <h3>Deployment</h3>
+                  <div className="TagsGroup">
                   <Tags image = {require('./images/heroku.png')} title = {"HEROKU"}/>
                   <Tags image = {require('./images/firebase.png')} title = {"FIREBASE"}/>
                   <Tags image = {require('./images/netlify.png')} title = {"NETLIFY"}/>
-                  <Tags image = {require('./images/adobe.png')} title = {"Adobe-xd"}/>
+                  </div>
+                  <h3>ProtoTyping</h3>
+                  <div className="TagsGroup">
+                  <Tags image = {require('./images/adobe.png')} title = {"Adobe xd"}/>
                   <Tags image = {require('./images/logo-figma.png')} title = {"Figma"}/>
-                  <Tags image = {require('./images/bootstrap.png')} title = {"Bootstrap"}/>
-                  <Tags image = {require('./images/mui.png')} title = {"Material UI"}/>
-                  <Tags image = {require('./images/material.png')} title = {"Materialize"}/>
+                  </div>
+                  <h3>Testing</h3>
+                  <div className="TagsGroup">
                   <Tags image = {require('./images/mocha.png')} title = {"Mocha"}/>
+                  </div>
+                  <h3>Version Control</h3>
+                  <div className="TagsGroup">
                   <Tags image = {require('./images/git.png')} title = {"Git"}/>
                </div>
             </div>

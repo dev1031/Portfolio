@@ -7,7 +7,7 @@ function Tags(props) {
         <div className ="Tags">
             <img src={props.image} alt ="wallpaper" />
         </div>
-        <h3>{props.title}</h3>
+        <h4>{props.title}</h4>
         </div>
     )
 }
