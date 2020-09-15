@@ -46,7 +46,8 @@ function App() {
                   <h3>Database</h3>
                   <div className="TagsGroup">
                     <Tags image = {require('./images/mongo.png')} title = {"MONGO"}/>
-                    <Tags image = {require('./images/postgres.png')} title = {"POSTGRES SQL"}/>
+                    <Tags image = {require('./images/postgres.png')} title = {"PG SQL"}/>
+                    <Tags image = {require('./images/firestore.png')} title = {"FireStore"}/>
                   </div>
                   <h3>ORM</h3>
                   <div className="TagsGroup">

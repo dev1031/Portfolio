@@ -5,6 +5,10 @@
     align-items: center;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     text-transform: uppercase;
+    background: linear-gradient(104deg,#c0392b 0%, #8e44ad 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .Tag:hover{
