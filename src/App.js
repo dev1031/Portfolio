@@ -100,6 +100,12 @@ function App() {
             image = {require('./images/wallpaper5.jpg')} 
             title = "Other Skills"
             />
+            <div className ="Cards">
+                <div className="CardGroup">
+                  <Card title ="Hacker Rank" text ="Advance" image ={require('./images/hackerrank.jpg')}/>
+                  <Card title ="Codewars" text ="Advance" image ={require('./images/codewars.jpg')}/>
+                  </div>
+            </div>     
           </div>      
         </Router>
   );
