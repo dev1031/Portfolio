@@ -102,18 +102,21 @@ function App() {
             title = "Other Skills"
             />
             <div className ="Cards">
+            <h2>Programming Languages</h2>
                 <div className="CardGroup">
-                  <Card title ="Hacker Rank" text ="Advance" image ={require('./images/hackerrank.jpg')}/>
-                  <Card title ="Codewars" text ="Advance" image ={require('./images/codewars.jpg')}/>
+                  <Card title ="Java Script" text ="Advance" image ={require('./images/js.jpg')}/>
+                  <Card title ="Python" text ="Intermediate" image ={require('./images/python.jpeg')}/>
+                  <Card title ="C++" text ="Intermediate" image ={require('./images/c++.png')}/>
+                  <Card title ="C#" text ="Beggniers" image ={require('./images/c-sharp.jpg')}/>
                   </div>
-            </div> 
+            </div>
             <div className ="Cards">
+            <h2>Competetive Programming</h2>
                 <div className="CardGroup">
-                  <Card title ="Python" text ="Intermediate" image ={require('./images/python.jpg')}/>
-                  <Card title ="C++" text ="Intermediate" image ={require('./images/c++1.jpg')}/>
-                  <Card title ="C#" text ="Beggniers" image ={require('./images/c#.jpg')}/>
+                  <Card title ="Hacker Rank" text ="Advance" image ={require('./images/hackerrank.png')}/>
+                  <Card title ="Codewars" text ="Advance" image ={require('./images/cw.jpeg')}/>
                   </div>
-            </div> 
+            </div>  
             <Footer>
       Backgrounds made in Cinema 4D, iOS app in Swift, site in React. <a href="mailto:support@designcode.io">Email us</a> to ask anything. © 2018
     </Footer>    
