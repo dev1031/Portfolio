@@ -141,3 +141,17 @@ a{
   justify-content: center;
   align-content: center;
 }
+
+.Hero .Logos {
+  display: grid;
+  grid-template-columns: repeat(3, 0.3fr);
+  margin-bottom: 30px;
+  margin-top:30px ;
+  justify-items: center;
+}
+
+@media (max-width: 640px) {
+  .Hero .Logos {
+    grid-template-columns: repeat(3, 0.3fr);
+  }
+}

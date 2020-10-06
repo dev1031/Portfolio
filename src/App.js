@@ -7,6 +7,7 @@ import Wave from './components/Wave';
 import Card from './components/Card';
 import Section from './components/Section';
 import Tags from './components/Tags';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -105,10 +106,21 @@ function App() {
                   <Card title ="Hacker Rank" text ="Advance" image ={require('./images/hackerrank.jpg')}/>
                   <Card title ="Codewars" text ="Advance" image ={require('./images/codewars.jpg')}/>
                   </div>
-            </div>     
+            </div> 
+            <div className ="Cards">
+                <div className="CardGroup">
+                  <Card title ="Python" text ="Intermediate" image ={require('./images/python.jpg')}/>
+                  <Card title ="C++" text ="Intermediate" image ={require('./images/c++1.jpg')}/>
+                  <Card title ="C#" text ="Beggniers" image ={require('./images/c#.jpg')}/>
+                  </div>
+            </div> 
+            <Footer>
+      Backgrounds made in Cinema 4D, iOS app in Swift, site in React. <a href="mailto:support@designcode.io">Email us</a> to ask anything. © 2018
+    </Footer>    
           </div>      
         </Router>
   );
 }
 
 export default App;
+
