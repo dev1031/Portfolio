@@ -31,7 +31,7 @@
 .Card h3 {
     color: white;
     font-size: 30px;
-    margin: 20px 0 0 20px;
+    margin: auto;
     width: 190px;
 }
 
@@ -41,5 +41,13 @@
     font-weight: 600;
     font-size: 18px;
     align-self: end;
-    margin: 0 0 20px 20px;
+    color : white;
+    margin: auto;
 }
+
+.Card a {
+    color: white;
+    margin: auto
+}
+
+

@@ -86,15 +86,15 @@ function App() {
             />
             <div className ="Cards">
                 <div className="CardGroup">
-                  <Card title ="Social Media App" text ="Advance" image ={require('./images/wallpaper4.jpg')}/>
-                  <Card title ="Github Client" text ="Advance" image ={require('./images/wallpaper.jpg')}/>
-                  <Card title ="Airbnb" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
-                  <Card title ="Instagram" text ="Advance" image ={require('./images/wallpaper3.jpg')}/>
-                  <Card title ="The Movie App" text ="Advance" image ={require('./images/wallpaper1.jpg')}/>
-                  <Card title ="Chat Application" text ="Advance" image ={require('./images/wallpaper5.jpg')}/>
-                  <Card title ="Exercise Tracker" text ="Advance" image ={require('./images/wallpaper2.jpg')}/>
-                  <Card title ="Travel log App" text ="Advance" image ={require('./images/wallpaper4.jpg')}/>
-                  <Card title ="Yelp" text ="Advance" image ={require('./images/wallpaper.jpg')}/>
+                  <Card title ="Social Media App" githubLink ="https://github.com/dev1031/mern-social-application-" appLink ="https://unruffled-bell-7e7c9b.netlify.app/" image ={require('./images/wallpaper4.jpg')}/>
+                  <Card title ="Github Client" githubLink ="https://github.com/dev1031/Graphql-Github-Client" appLink ="https://github-client-a09d6.web.app/"   image ={require('./images/wallpaper.jpg')}/>
+                  <Card title ="Airbnb" githubLink ="https://github.com/dev1031/Airbnb-Clone-React-MUI" appLink ="https://airbnb-clone-7af9c.web.app/" image ={require('./images/wallpaper2.jpg')}/>
+                  <Card title ="Instagram" githubLink ="https://github.com/dev1031/Instagram-clone--React" appLink ="https://instagram-clone-15227.web.app/" image ={require('./images/wallpaper3.jpg')}/>
+                  <Card title ="The Movie App"githubLink ="https://github.com/dev1031/The-Movie-DataBase" appLink ="https://movie-db-tmdb.herokuapp.com/"  image ={require('./images/wallpaper1.jpg')}/>
+                  <Card title ="Chat Application" githubLink ="https://github.com/dev1031/chat-app-client-code" appLink ="https://5f7164570727d037de68263f--unruffled-bell-7e7c9b.netlify.app/" image ={require('./images/wallpaper5.jpg')}/>
+                  <Card title ="Expense Tracker" githubLink ="https://github.com/dev1031/EXPENSE-TRACKER" appLink ="https://mern-money-tracker-app.herokuapp.com/" image ={require('./images/wallpaper2.jpg')}/>
+                  <Card title ="Travel log App" githubLink ="https://github.com/dev1031/Travel-Log-App" appLink ="https://travel-app-with-mapbox.herokuapp.com/" image ={require('./images/wallpaper4.jpg')}/>
+                  <Card title ="Yelp" githubLink ="https://github.com/dev1031/yelp-pern-clone" appLink ="https://postgres-yelp-clone.herokuapp.com/"  image ={require('./images/wallpaper.jpg')}/>
                 </div>
             </div>
             <Section 
@@ -104,17 +104,17 @@ function App() {
             <div className ="Cards">
             <h2>Programming Languages</h2>
                 <div className="CardGroup">
-                  <Card title ="Java Script" text ="Advance" image ={require('./images/js.jpg')}/>
-                  <Card title ="Python" text ="Intermediate" image ={require('./images/python.jpeg')}/>
+                  <Card title ="Java Script" text ="Advance" image ={require('./images/javas.png')}/>
+                  <Card title ="Python" text ="Intermediate" image ={require('./images/python.png')}/>
                   <Card title ="C++" text ="Intermediate" image ={require('./images/c++.png')}/>
-                  <Card title ="C#" text ="Beggniers" image ={require('./images/c-sharp.jpg')}/>
+                  <Card title ="C#" text ="Beginner" image ={require('./images/cSharp.png')}/>
                   </div>
             </div>
             <div className ="Cards">
             <h2>Competetive Programming</h2>
                 <div className="CardGroup">
                   <Card title ="Hacker Rank" text ="Advance" image ={require('./images/hackerrank.png')}/>
-                  <Card title ="Codewars" text ="Advance" image ={require('./images/cw.jpeg')}/>
+                  <Card title ="Codewars" text ="Advance" image ={require('./images/codewars.png')}/>
                   </div>
             </div>  
             <Footer>
