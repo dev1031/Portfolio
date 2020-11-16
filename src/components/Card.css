@@ -30,7 +30,7 @@
 
 .Card h3 {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     margin: auto;
     width: 190px;
 }
@@ -39,7 +39,7 @@
     color: rgba(255,255,255, 0.8);
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 25px;
     align-self: end;
     color : white;
     margin: auto;

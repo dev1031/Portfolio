@@ -17,8 +17,8 @@ function App() {
             <div className="Hero">
               <div className="HeroGroup">
                 <h1>Hello, I'm Dherendra Dev.<span><Typewriter options={{ strings: ['Frontend ', 'Backend', 'Fullstack'],autoStart: true, loop: true, delay :100}} /></span> web developer.</h1>
-                <p>Hello folks this is simple peragraph for testing purpose</p>
-                <Link to = "/" >Go to the course</Link>
+                <p>I am self taught full stack web developer. I have serious passion for creating new full stack web applications.</p>
+                <Link to = "/" >Check my portfolio</Link>
                 <Wave />
               </div>
             </div>
@@ -82,7 +82,7 @@ function App() {
             </div>
             <Section 
             image = {require('./images/wallpaper1.jpg')} 
-            title = "My Personal Projects"
+            title = "Personal Projects"
             />
             <div className ="Cards">
                 <div className="CardGroup">
@@ -113,13 +113,12 @@ function App() {
             <div className ="Cards">
             <h2>Competetive Programming</h2>
                 <div className="CardGroup">
-                  <Card title ="Hacker Rank" text ="Advance" image ={require('./images/hackerrank.png')}/>
-                  <Card title ="Codewars" text ="Advance" image ={require('./images/codewars.png')}/>
+                  <Card title ="Hacker Rank" text ="Profile" githubLink = "https://www.hackerrank.com/dherendradev106" image ={require('./images/hackerrank.png')}/>
+                  <Card title ="Codewars" text ="Profile" githubLink ="https://www.codewars.com/users/dev1031" image ={require('./images/codewars.png')}/>
                   </div>
             </div>  
             <Footer>
-      Backgrounds made in Cinema 4D, iOS app in Swift, site in React. <a href="mailto:support@designcode.io">Email us</a> to ask anything. © 2018
-    </Footer>    
+            </Footer>    
           </div>      
         </Router>
   );
