@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Typewriter from 'typewriter-effect';
-import { BrowserRouter as Router , Link } from "react-router-dom";
+import { BrowserRouter as Router , Link  } from "react-router-dom";
 import Header from './components/header';
 import Wave from './components/Wave';
 import Card from './components/Card';
@@ -115,10 +115,9 @@ function App() {
                 <div className="CardGroup">
                   <Card title ="Hacker Rank" text ="Profile" githubLink = "https://www.hackerrank.com/dherendradev106" image ={require('./images/hackerrank.png')}/>
                   <Card title ="Codewars" text ="Profile" githubLink ="https://www.codewars.com/users/dev1031" image ={require('./images/codewars.png')}/>
-                  </div>
+                </div>
             </div>  
-            <Footer>
-            </Footer>    
+            <Footer></Footer>    
           </div>      
         </Router>
   );

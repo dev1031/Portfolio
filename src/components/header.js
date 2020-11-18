@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import './Header.css'
+import { BrowserRouter as Router , Link  } from "react-router-dom";
+import './Header.css';
 
 class Header extends React.Component{
     constructor(props){
@@ -27,16 +27,18 @@ class Header extends React.Component{
 
     render(){
         return(
-        <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
-            <div className="HeaderGroup">
-                <Link to ="/">Home</Link>
-                <Link to ="/about">About</Link>
-                <Link to ="/skills">Skills</Link>
-                <Link to ="/projects">Projects</Link>
-                <Link to ="/other">Other</Link>
-                <button>Contact</button>
-            </div> 
-        </div>
+            <Router>
+             <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
+                <div className="HeaderGroup">
+                    <Link to ="/">Home</Link>
+                    <Link to ="/about">About</Link>
+                    <Link to ="/skills">Skills</Link>
+                    <Link to ="/projects">Projects</Link>
+                    <Link to ="/other">Other</Link>
+                    <button>Contact</button>
+                </div> 
+             </div>
+            </Router>
         )
     }
 }
